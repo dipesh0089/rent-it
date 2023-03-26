@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        .blogmain
+        {
+            /* height: 810px; */
+            background: chartreuse;
+            text-align: center;
+            padding: 60px 0;
+        }
+        .blogmain h2 
+        {
+            margin-bottom: 25px;
+        }
+        .blogmain h2 small
+        {
+            font-weight: 400;
+            color: rgb(165, 171, 183);
+            font-family: sans-serif;
+        
+        }
+        .blogmain h2 span
+        {
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .blogmain .blogers
+        {
+            /* height: 540px; */
+            background: burlywood;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* justify-content: space-between; */
+            align-items: center;
+            padding: 20px 0px;
+        }
+        .blogmain .blogers .bloger-detail
+        {
+            /* height: 500px; */
+            /* width: 560px; */
+            /* margin: 20px; */
+            background: cadetblue;
+            margin: 15px  15px;
+        }
+        .blogmain .blogers .bloger-detail .blogerimage
+        {
+            height: 265px;
+            width: 560px;
+            background: goldenrod;
+            background: url(./image/12-plbiagle50iznkyiz8ur3n3eofjf63iux2i9iddwjq.jpg);
+            background-size: 100% 100%;
+            z-index: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .blogmain .blogers .bloger-detail .gr
+        {
+            background: url(./image/shutterstock_227261371-plbiagle2tlowci6nae98rx3kwi3t4kym34t9mgtgs.jpg);
+            background-size: 100% 100%;
+        }
+
+        .blogmain .blogers .bloger-detail .blogerimage .about
+        {
+            height: 20PX;
+            width: 100PX;
+            background: orangered;
+            text-align: center;
+            padding: 4px 0;
+            font-size: 12px;
+            color: white;
+            font-weight: bold;
+            font-family: sans-serif;
+            position: absolute;
+            top: 245px;
+            
+            
+        }
+        .blogmain .blogers .bloger-detail .blogerimage .sign
+        {
+            height: 265px;
+            width: 560px;
+            background: rgba(255, 0, 0, 0.50);
+            color: white;
+            font-size: 20px;
+            padding: 120px 50px;
+            position: absolute;
+            top: 265px;
+            left: 0;
+            z-index: -1;
+            
+            
+        }
+        .blogmain .blogers .bloger-detail .blogerimage:hover .sign
+        {
+            top: 0;
+        }
+
+        .blogmain .blogers .bloger-detail .blogertext
+        {
+            height: 235px;
+            width: 560px;
+            background: red;
+            display: flex;
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-left
+        {
+            height: 235px;
+            width: 100px;
+            background: yellow;
+            padding-top: 25px;
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-left .date
+        {
+            height: 65px;
+            width: 65px;
+            background: black;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+
+
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-right
+        {
+            height: 235px;
+            width: 460px;
+            background: olivedrab;
+            padding-top: 20px;
+            padding-right: 50px;
+            text-align: left;
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-right h2 small
+        {
+            font-weight: 400;
+            color: rgb(165, 171, 183);
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-right h2 span
+        {
+            font-weight: bold;
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-right h2
+        {
+            margin-bottom: 20px;
+        }
+        .blogmain .blogers .bloger-detail .blogertext .blog-text-right p
+        {
+            font-size: 18px;
+            color: rgb(165, 171, 183);
+        }
+
+        .blogmain button
+        {
+            height: 50px;
+            width: 200px;
+            margin-top: 50px;
+            background: white;
+            border: 1px solid  rgb(165, 171, 183);
+        }
+        @media(max-width: 600px)
+        {
+            .blogmain .blogers .bloger-detail{width: 100%;} 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blogmain">
+        <h2>
+            <small>Rental Magazine Here</small><br>
+            <span>RECENT BLOG POSTS</span>
+        </h2>
+        <div class="blogers">
+            <div class="bloger-detail">
+                <div class="blogerimage">
+                    <div class="about">
+                        CAR SERVICE
+                    </div>
+                    <div class="sign">
+                        <i class="fa fa-plus"></i>
+                    </div>
+
+                </div>
+                <div class="blogertext">
+                    <div class="blog-text-left">
+                        <div class="date">
+                            17 OCT
+                        </div>
+
+                    </div>
+
+                    <div class="blog-text-right">
+                        <h2>
+                            <small>By rentit |<i class="fa fa-comment"></i> 0 |<i class="fa fa-heart"></i>  -54 |<i class="fa fa-share-alt"></i></small><br>
+                            <span>Sample Post With Featued Image</span>
+                        </h2>
+
+                        <p>
+                            Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna,… Fusce gravida interdum eros a mollis. Sed non lorem varius, volutpat nisl in, …
+                        </p>
+
+
+                    </div>
+
+                </div>
+               
+            </div>
+            <div class="bloger-detail">
+                <div class="blogerimage gr">
+                    <div class="about">
+                        CAR SERVICE
+                    </div>
+                    <div class="sign">
+                        <i class="fa fa-plus"></i>
+                    </div>
+
+                </div>
+                <div class="blogertext">
+                    <div class="blog-text-left">
+                        <div class="date">
+                            17 OCT
+                        </div>
+
+                    </div>
+
+                    <div class="blog-text-right">
+                        <h2>
+                            <small>By rentit |<i class="fa fa-comment"></i> 0 |<i class="fa fa-heart"></i>  -54 |<i class="fa fa-share-alt"></i></small><br>
+                            <span>Sample Post With Featued Image</span>
+                        </h2>
+
+                        <p>
+                            Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna,… Fusce gravida interdum eros a mollis. Sed non lorem varius, volutpat nisl in, …
+                        </p>
+
+
+                    </div>
+
+                </div>
+               
+            </div>
+
+        </div>
+
+
+        <button>SEE ALL POSTS</button>
+           
+
+        
+
+    </div>
+</body>
+</html>

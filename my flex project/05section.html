@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        .five-container
+        {
+            height: 680px;
+            background: gray;
+            text-align: center;
+            font-family: sans-serif;
+            padding-top: 40px
+        }
+        .five-container h2
+        {
+            /* margin: 10px 0; */
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .five-container h2 small
+        {
+            color: rgb(165, 171, 183);
+            font-weight: 400;
+        }
+        .five-container .best-offers
+        {
+            /* height: 70px; */
+            background-color: indigo;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+            
+        }
+        .five-container .best-offers .best
+        {
+            /* height: 30px; */
+            /* width: 200px; */
+            padding: 12PX 40PX;
+            
+            /* border: 1px solid; */
+            
+            background: black;
+            color: rgb(165, 171, 183);
+        }
+        .five-container .best-offers .k
+        {
+            background: red;
+            color: white;
+        }
+        .five-container .best-offers .kl
+        {
+            margin: 0 5px;
+        }
+
+
+        .five-container .section-co
+        {
+            /* height: 410px; */
+            background: burlywood;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+            /* padding: 0px 65px; */
+        }
+
+
+        .section-co .cars1
+        {
+            height: 380px;
+            /* width: 354px; */
+            background: cornflowerblue;
+            border: 1px solid rgb(165, 171, 183);
+            /* margin-left: 30px; */
+            /* margin-right: 30px; */
+            margin: 0px 10px;
+            
+        }
+        .cars1 .car-image
+        {
+            height: 225px;
+            width: 354px;
+            background: orange;
+            background: url(./image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            
+        }
+        .cars1 .bi
+        {
+            background: url(./image/car-370x220x6-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg);
+            background-size: 100% 100%;
+        
+        }
+        .cars1 .ib
+        {
+            background: url(./image/car-370x220x10-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg);
+            background-size: 100% 100%;
+        
+        }
+        .cars1 .car-image .eye-effects
+        {
+            height: 70px;
+            width: 70px;
+            background: chocolate;
+            border: 1px solid;
+            text-align: center;
+            padding: 4px 4px;
+            border-radius: 50%;
+            opacity: 0.60;
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 140px;
+        }
+
+        .cars1 .car-image .eye-effects .eye-effect1
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: black;
+            text-align: center;
+            padding: 20px;  
+            
+            
+        }
+        .eye-effect1 .fa-eye
+        {
+            color: white;
+        }
+        .cars1 .car-image:hover .eye-effects
+        {
+            display: block;
+        }
+        .cars1 .car-text
+        {
+            height: 155px;
+            width: 354px;
+            background: red;
+        }
+        .cars1 .car-text .car-text-up
+        {
+            height: 120px;
+            width: 354px;
+            background: gray;
+            text-align: center;
+            padding: 10px;
+        }
+        .cars1 .car-text .car-text-up p
+        {
+            margin: 10px 0;
+            font-family: sans-serif;
+            color: rgb(165, 171, 183);
+        }
+        .cars1 .car-text .car-text-up .pp1
+        {
+            font-weight: bold;
+            color: black;
+        }
+        .cars1 .car-text .car-text-up .pp1:hover
+        {
+            color: red;
+        }
+        .cars1 .car-text .car-text-up button
+        {
+            height: 30px;
+            width: 115px;
+            border: none;
+            background: red;
+            color: white;
+
+        }
+        .cars1 .car-text .car-text-up button:hover
+        {
+            background: black;
+        }
+
+        .cars1 .car-text .car-text-down
+        {
+            height: 35px;
+            width: 354px;
+            background-color: yellow;
+            display: flex;
+            
+            
+        }
+        .cars1 .car-text .car-text-down .d2015
+        {
+            height: 35px;
+            width: 88.5px;
+            background: darkcyan;
+            border: 1px solid rgb(165, 171, 183);
+            color: rgb(165, 171, 183);
+            text-align: center;
+            padding: 8px;
+        }
+        @media(max-width: 600px)
+        {
+            .five-container .best-offers .best{width: 100%;}
+            .section-co .cars1{width: 100%;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="five-container">
+        <h2>
+            <small>What a Kind of Car You Want</small><br>
+            <span>GREAT RENTAL OFFERS FOR YOU</span>
+        </h2>
+        <div class="best-offers">
+            <div class="best k">BEST OFFERS</div>
+            <div class="best kl">ECONOMIC CARS</div>
+            <div class="best">POPULAR CARS</div>
+
+        </div>
+        <div class="section-co">
+            <div class="cars1">
+                <div class="car-image">
+                    <!-- <img src="image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg" alt="" height="225px" width="354px"> -->
+                    <div class="eye-effects">
+                        <div class="eye-effect1">
+                            <i class="fa fa-eye"></i>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="car-text">
+                    <div class="car-text-up">
+                        <p class="pp1">Honda Civic Elegance</p>
+                        <p>Start from $ 100.00 / per day</p>
+                        <button>RENT IT</button>
+                    </div>
+                    <div class="car-text-down">
+                        
+                        <div class="d2015">
+                            <i class="fa fa-car"></i>
+                            2015
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-tachometer"></i>
+                            Diesel
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-sun-o"></i>
+                            Auto
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-road"></i>
+                            2500
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end -->
+
+            <div class="cars1">
+                <div class="car-image bi">
+                    <!-- <img src="image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg" alt="" height="225px" width="354px"> -->
+                    <div class="eye-effects">
+                        <div class="eye-effect1">
+                            <i class="fa fa-eye"></i>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="car-text">
+                    <div class="car-text-up">
+                        <p class="pp1">Renolt megane</p>
+                        <p>Start from $ 56.00 / per day</p>
+                        <button>RENT IT</button>
+                    </div>
+                    <div class="car-text-down">
+                        
+                        <div class="d2015">
+                            <i class="fa fa-car"></i>
+                            2015
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-tachometer"></i>
+                            Diesel
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-sun-o"></i>
+                            Auto
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-road"></i>
+                            25000
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end -->
+
+            <div class="cars1">
+                <div class="car-image ib">
+                    <!-- <img src="image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg" alt="" height="225px" width="354px"> -->
+                    <div class="eye-effects">
+                        <div class="eye-effect1">
+                            <i class="fa fa-eye"></i>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="car-text">
+                    <div class="car-text-up">
+                        <p class="pp1">VW Polo 1.6 TDI Comfortline</p>
+                        <p>Start from $ 41.00 / per day</p>
+                        <button>RENT IT</button>
+                    </div>
+                    <div class="car-text-down">
+                        
+                        <div class="d2015">
+                            <i class="fa fa-car"></i>
+                            2015
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-tachometer"></i>
+                            Diesel
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-sun-o"></i>
+                            Auto
+                        </div>
+    
+                        <div class="d2015">
+                            <i class="fa fa-road"></i>
+                            25000
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end -->
+
+        </div>
+    </div>
+</body>
+</html>
