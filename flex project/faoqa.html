@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        .faqs
+        {
+            /* height: 360px; */
+            background: cadetblue;
+            /* margin: 100px 0; */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .faqs h2
+        {
+            margin-bottom: 20px;
+        }
+        .faqs h2 span
+        {
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .faqs h2 small
+        {
+            color: rgb(165, 171, 183);
+        }
+
+        .faqs .faqscontent
+        {
+            /* height: 240px; */
+            background: chartreuse;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .faqscontent .question
+        {
+            /* height: 140px; */
+            /* width: 500px; */
+            background: cornflowerblue;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 1px solid;
+            padding: 10px 0;
+        }
+        .faqscontent .question .qa
+        {
+            height: 40px;
+            width: 500px;
+            background: crimson; 
+            border: 1px solid;
+
+            display: flex;
+        
+        }
+        .faqscontent .question .aq
+        {
+            margin: 10px 0;
+        }
+        .faqscontent .question .qa .ex
+        {
+            height: 40px;
+            width: 460px;
+            background: cyan;
+        }
+        .faqscontent .question .qa button
+        {
+            height: 40px;
+            width: 40px;
+            background: red;
+            padding: 12px;
+            border: none;
+        }
+        @media(max-width: 600px)
+        {
+            .faqscontent .question{width: 100%;}
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="faqs">
+        <h2>
+            <small>See What People Ask to Us</small><br>
+            <span>FAQS</span>
+        </h2>
+        <div class="faqscontent">
+            <div class="question">
+                <div class="qa">
+                    <div class="ex">How can ? drop the rental car?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+
+                <div class="qa aq">
+                    <div class="ex">Where can I rent a car?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+
+                <div class="qa">
+                    <div class="ex">IF I crash a car. What happens?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+                
+            </div>
+
+            <div class="question">
+                <div class="qa">
+                    <div class="ex">How can ? drop the rental car?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+
+                <div class="qa aq">
+                    <div class="ex">Where can I rent a car?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+
+                <div class="qa">
+                    <div class="ex">IF I crash a car. What happens?</div>
+                    <button><i class="fa fa-plus"></i></button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

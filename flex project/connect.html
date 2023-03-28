@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+
+        .connectmain
+        {
+            /* height: 600px; */
+            background: chocolate;
+            background: url(image/paris-skyline-with-a-dramatic-sunset--frdric-collin.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 20px;
+            /* border: 2px solid; */
+            font-family: sans-serif;
+
+        
+        }
+        .connectmain h2
+        {
+            text-align: center;
+            /* background: cornflowerblue; */
+            /* border: 1px solid; */
+            color: white;
+        }
+        .connectmain h2 small
+        {
+            font-weight: 400;
+        }
+        .connectmain .connectdetail
+        {
+            /* height: 500px; */
+            /* width: 100%; */
+            /* background: burlywood; */
+            /* border: 1px solid; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .connectdetail .connect-detail-left
+        {
+            /* height: 400px; */
+            /* width: 50%; */
+            /* background: crimson; */
+            padding: 20px;
+            
+        }
+
+        .connect-detail-left .rowline
+        {
+            width: 566px;
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid; */
+            margin-bottom: 20px;
+            height: 30px;
+        }
+        .connect-detail-left .rowline input
+        {
+            height: 30px;
+            width: 260px;
+            background: rgba(7, 7, 7, 0.50);
+            outline: none;
+            border: none;
+        }
+        .connect-detail-left .subject 
+        {
+            width: 566px;
+            height: 30px;
+            /* border: 1px solid; */
+            margin-bottom: 20px;
+            /* background: royalblue; */
+        }
+        .connect-detail-left .subject input
+        {
+            height: 30px;
+            width: 100%;
+            outline: none;
+            border: none;
+            background: rgba(7, 7, 7, 0.50);
+        }
+        .connect-detail-left .subject button
+        {
+            width: 566px;
+            height: 30px;
+            border: none;
+            font-weight: bold;
+            color: white;
+            background: rgba(7, 7, 7, 0.80);
+        }
+        .connect-detail-left .subject button:hover
+        {
+            background: red;
+        }
+
+        .connect-detail-left .textarea
+        {
+            width: 570px;
+            /* border: 1px solid; */
+            margin: 20px 0;
+        }
+        .connect-detail-left textarea
+        {
+            outline: none;
+            border: none;
+            background: rgba(7, 7, 7, 0.50);
+        }
+        
+
+
+
+
+
+        .connectdetail .connect-detail-right
+        {
+            /* height: 400px; */
+            /* width: 50%; */
+            /* background: blue; */
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.50);
+        }
+        .connect-detail-right p
+        {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        .connect-detail-right .address
+        {
+            display: flex;
+            /* border: 1px solid; */
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .connect-detail-right .address i
+        {
+            margin-right: 10px;
+        }
+
+
+        @media(max-width: 600px)
+        {
+            .connectmain .connectdetail{width: 100%;}
+        }
+        
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="connectmain">
+        
+        
+        <h2>
+            <small>connectmain</small><br>
+            <span>GET IN TOUCH WITH US</span>
+        </h2>
+            
+        <div class="connectdetail">
+
+            <div class="connect-detail-left">
+                
+                    <div class="rowline">
+                        <div class="lines">
+                            
+                            <input type="text" placeholder="Name">
+                        </div>
+        
+                        <div class="lines">
+                            
+                            <input type="text" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <input type="text" placeholder="Subject">
+                    </div>
+
+                    <div class="textarea">
+                        <textarea name="" id="" cols="75" rows="10" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="subject">
+                        <button>SEND MESSAGE</button>
+                    </div>
+                
+            </div>
+                    
+
+            <div class="connect-detail-right">
+                <p>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor<br>aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+                <div class="address"><i class="fa fa-home"></i>
+                    <p>	Adress: 1600 Pennsylvania Ave NW, Washington, D.C. DC 20500, ABD</p>
+                </div>
+
+                <div class="address"><i class="fa fa-phone"></i>
+                    <p>	Adress: 1600 Pennsylvania Ave NW, Washington, D.C. DC 20500, ABD</p>
+                </div>
+
+                <div class="address"><i class="fa fa-envelope"></i>
+                    <p>	Adress: 1600 Pennsylvania Ave NW, Washington, D.C. DC 20500, ABD</p>
+                </div>
+
+                <div class="address"><i class="fa fa-clock-o"></i>
+                    <p>	Adress: 1600 Pennsylvania Ave NW, Washington, D.C. DC 20500, ABD</p>
+                </div>
+
+                <div class="address"><i class="fa fa-map-marker"></i>
+                    <p>	Adress: 1600 Pennsylvania Ave NW, Washington, D.C. DC 20500, ABD</p>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+    </div>
+</body>
+</html>

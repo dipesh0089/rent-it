@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+
+        .footermain
+        {
+            height: 410px;
+            background: slateblue;
+            
+            /* padding-top: 20px; */
+            /* padding-left: 20px; */
+            /* padding-right: 20px;  */
+        }
+        .footermain .footerinfo
+        {
+            height: 300px;
+            background: burlywood;
+            display: flex;
+            /* flex-wrap: wrap; */
+        }
+        
+        .footerinfo .finfoparts
+        {
+            height: 300px;
+            width: 350px;
+            background: cornsilk;
+            border: 1px solid;
+            padding: 20px;
+            font-family: sans-serif ;
+        }
+        .footerinfo .finfoparts h3
+        {
+            font-family: sans-serif;
+        }
+        .footerinfo .finfoparts .line
+        {
+            height: 2px;
+            width: 50px;
+            background: red;
+            margin: 20px 0;
+        }
+        .footerinfo .finfoparts .inp
+        {
+            height: 30px;
+            width: 250px;
+            background: rosybrown;
+            /* border: 1px solid; */
+            margin: 20px 0;
+        }
+        .footerinfo .finfoparts .inp input
+        { 
+            height: 30px;
+            width: 250px;
+            outline: none;
+        }
+        .footerinfo .finfoparts button
+        {
+            height: 30px;
+            width: 100px;
+            font-weight: bold;
+        }
+        .footerinfo .finfoparts button:hover
+        {
+            background: black;
+            color: white;
+        }
+        .footerinfo .finfoparts .testpart
+        {
+            height: 25px;
+            width: 250px;
+            border-bottom: 1px solid;
+            margin: 10px 0;
+            padding: 3px;
+        }
+        .footerinfo .finfoparts .testpart i
+        {
+            margin-right: 5px;
+        }
+        .footerinfo .finfoparts .testpart:hover
+        {
+            color: orangered;
+            border-color: black;
+        }
+        .footerinfo .finfoparts .hrtv
+        {
+            height: 30px;
+            width: 80px;
+            background: white;
+            font-weight: bold;
+            
+            border: 2px solid;
+            margin:  12px 5px;
+            padding: 5px 10px;
+            display: inline;
+
+        }
+        .footerinfo .finfoparts .hrtv:hover
+        {
+            color: red;
+            background: black;
+        }
+        .footerinfo .finfoparts .tv
+        {
+            display: block;
+            width: 70px;
+        }
+
+
+
+        .footermain .copyright
+        {
+            height: 90px;
+            background: orangered;
+            font-family: sans-serif;
+            border: 1px solid;
+            text-align: center;
+            padding: 40px 0;
+        }
+       
+        @media(max-width: 500px)
+        {
+            .footerinfo .finfoparts{width: 100%;}
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="footermain">
+
+        <div class="footerinfo">
+            <div class="finfoparts">
+                <h3>ABOUT US</h3>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+
+            <div class="finfoparts">
+                <h3>NEWS LETTER</h3>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="inp">
+                    <input type="text" placeholder="Enter Your Mail and Get $10 Cash " name="" id="">
+                </div>
+                
+                <button>SUBSCRIBE</button>
+
+            </div>
+
+            <div class="finfoparts">
+                <h3>TEST</h3>
+                <div class="line"></div>
+
+                <div class="testpart"><i class="fa fa-arrow-circle-right"></i>About Us</div>
+
+                <div class="testpart"><i class="fa fa-arrow-circle-right"></i>Contact Us</div>
+
+                <div class="testpart"><i class="fa fa-arrow-circle-right"></i>FAQS</div>
+
+                <div class="testpart"><i class="fa fa-arrow-circle-right"></i>Blog</div>
+                
+            </div>
+
+            <div class="finfoparts">
+                <h3>ITEM TAGS</h3>
+                <div class="line"></div>
+                <div class="hrtv">Honda</div>
+                <div class="hrtv">Renoult</div>
+                <div class="hrtv">Toyota</div>
+                <div class="hrtv tv">VW</div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2022 Rent It — An One Page Rental Car Theme made with passion by jThemes Studio
+        </div>
+
+    </div>
+
+</body>
+</html>

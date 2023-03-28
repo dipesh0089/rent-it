@@ -1,0 +1,143 @@
+/* header end */
+
+@media(max-width: 600px)
+{
+    /* header{width: 100%;} */
+    header .logo{width: 100%;}
+    header .nav{width: 100%;}
+
+}
+
+/* header end */
+
+/* second section start */
+
+
+/* second section end */
+
+ 
+/* third section start */
+
+
+@media(max-width: 600px)
+{
+    .content .card{width: 100;}
+}
+
+/* third section end */
+
+/* four section start */
+
+@media(max-width: 600px)
+        {
+            .four-container .four-left{width: 100%;}
+            .four-container .four-right{width: 100%;}
+        }
+
+/* four section end */
+
+/* five section start */
+
+@media(max-width: 600px)
+        {
+            .five-container .best-offers .best{width: 100%;}
+            .section-co .cars1{width: 100%;}
+        }
+
+/* five section end */
+
+
+/* six section start */
+
+/* six section end */
+
+/* seven section start */
+
+@media(max-width: 600px)
+{
+    .seven-container .bestoffers .besti{width: 100%;}
+}
+
+
+@media(max-width: 600px)
+{
+    .section-cont .card-1{width: 100%;}
+    
+}
+@media(max-width: 600px)
+{
+    .section-cont .card-2{width: 100%;}
+}
+
+/* seven section end */
+
+/* eight secton start */
+
+@media(max-width: 600px)
+{
+    .eight-section .parts .part{width: 100%;}  
+}
+
+/* eight secton end */
+
+/* nine section start */
+
+@media(max-width: 600px)
+        {
+            .faqscontent .question{width: 100%;}
+        }
+
+/* nine section end */
+
+/* mapsection start */
+
+
+/* mapsection end */
+
+/* blog section start */
+
+@media(max-width: 600px)
+{
+    .blogmain .blogers .bloger-detail{width: 100%;} 
+}
+
+/* blog section end */
+
+
+/* scubribe section start */
+
+
+
+
+
+/* scribe section end */
+
+
+/* customer service start */
+
+@media(max-width: 600px)
+        {
+            .image-info .info{width: 100%;}
+        }
+
+/* customer service end */
+
+
+/* touch with us start */
+
+
+@media(max-width: 600px)
+        {
+            .connectmain .connectdetail{width: 100%;}
+        }
+
+/* touch with us end */
+
+/* footer start */
+
+@media(max-width: 600px)
+        {
+            .footerinfo .finfoparts{width: 100%;}
+        }
+
+/* footer end */

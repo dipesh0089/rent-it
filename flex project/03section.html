@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suport calendare </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        .content
+        {
+            height: 433px;
+            background: burlywood;
+            /* margin-top: 50px; */
+            
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+            align-items: center;
+            /* padding-left: 45px; */
+            /* padding-right: 50px; */
+            
+
+
+        
+        }
+       
+         .content .card
+        {
+           height: 290px;
+           width: 350px;
+           background: chocolate;
+           margin-left: 30px;
+           
+           text-align: center;
+           position: relative;
+           padding: 75px 0;
+        
+    
+        }
+        @media(max-width: 600px;)
+        {
+            .content .card{width: 100;}
+        }
+        .card i
+        {
+            font-size: 90px;
+            /* margin-top: 75px; */
+        }
+        .card p
+        {
+            font-family: sans-serif;
+            font-weight: 700;
+            margin: 20px 0;
+            /* line-height: 70px; */
+        }
+        .effect
+        {
+            
+            height: 290px;
+            width: 350px;
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            color: white;
+            font-family: sans-serif;
+            background-color: rgb(230, 0, 0);
+            /* transition: 1s; */
+            padding: 30px;
+        
+            display: none;
+
+
+        }
+        .effect button
+        {
+            height: 50px;
+            width: 170px;
+            background: none;
+            color: white;
+            border: 1px solid white;
+        }
+        .effect .icon
+        {
+            font-size: 90px;
+            
+        }
+        .effect .pk
+        {
+            font-family: sans-serif;
+            font-weight: 700;
+            margin: 30px;
+            /* line-height: 70px; */
+        }
+        .card:hover .effect
+        {
+            top: 0;
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-support"></i>
+                
+            </div>
+            <p>7/24 CAR SUPPORT</p>
+            <div class="effect">
+                <div class="icon">
+                    <i class="fa fa-support"></i>
+                    
+                </div>
+                <p class="pk">7/24 CAR SUPPORT</p>
+                <button>REDMORE</button>
+
+            </div>
+
+        </div>
+
+        
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-calendar"></i>
+                
+            </div>
+            <p>RESERVATION ANYTIME</p>
+            <div class="effect">
+                <div class="icon">
+                    <i class="fa fa-calendar"></i>
+                    
+                </div>
+                <p class="pk">RESERVATION ANYTIME</p>
+                <button>REDMORE</button>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-map-marker"></i>
+                
+            </div>
+            <p>LOTS OF LOCATION</p>
+            <div class="effect">
+                <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+                    
+                </div>
+                <p class="pk">LOTS OF LOCATION</p>
+                <button>REDMORE</button>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

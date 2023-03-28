@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+
+        .second-section
+        {
+            height: 700px;
+            background: coral;
+            background: url(./image/slide-1.jpg);
+            background-size: 100% 100%;
+            text-align: center;
+            padding: 20px 240px;
+            /* position: relative; */
+            
+        }
+        @media(max-width: 600px)
+        {
+            .second-section{width: 100%;}
+        }
+        
+        .second-section p
+        {
+            font-family: sans-serif;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: white;
+
+        }
+        .second-section h1
+        {
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 65px;
+            color: white;
+            margin-bottom: 40px;
+            
+        }
+        .second-section .cheap
+        {
+            height: 330px;
+            width: 950px;
+            background-color: rgba(7, 7, 7, 0.80);
+            /* position: absolute;
+            top: 150px;
+            left: 250px;*/
+            text-align: left;
+            
+        }
+        .cheap .cheaprental
+        {
+            /* background-color: greenyellow; */
+            background-color: rgb(7, 7, 7, 0.50);
+            /* border: 1px solid; */
+            color: white;
+            padding: 5px 10px;
+            text-align: left;
+        }
+        .cheap .cheaprental p
+        {
+            text-align: left;            
+        }
+        .cheap .form
+        {
+            padding: 30px 20px 10px 20px;
+            background: transparent;
+            border-bottom: 1px solid;
+            border-color: rgb(255, 255, 255, 0.50);
+        }
+        .cheap .row-line
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .cheap .row-line .lines 
+        {
+            flex-basis: 49%;
+        }
+
+        .cheap .row-line .lines label
+        {
+            margin-bottom: 5px;
+            display: block;
+            color: white;
+        }
+
+        .cheap .row-line .lines input
+        {
+            width: 100%;
+            height: 35px;
+            border: none;
+            background: rgba(255, 255, 255, 0.80);
+            outline: none; 
+            padding-bottom: 5px;
+        }
+
+        .cheap .findcar
+        {
+            padding:  20PX 20px;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .cheap .findcar P
+        {
+            font-size: 16px;
+            text-align: left;
+        }
+        .cheap .findcar a
+        {
+            color: rgba(255, 255, 255, 0.80);
+        }
+        .cheap .findcar a:hover
+        {
+            color: white;
+        }
+        .cheap .findcar button
+        {
+            width: 170px;
+            background: orangered;
+            border: none;
+            font-weight: bold;
+            color: white;
+        }
+        .cheap .findcar button:hover
+        {
+            background: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="second-section">
+        <p>ALL DISCOUNT JUS FORE YOU</p>
+        <h1>FIND BEST RENTAL CAR</h1>
+        
+        <div class="cheap">
+            <div class="cheaprental">
+                <p>Search for Cheap Rental Cars Wherever Your Are</p>
+            </div>
+
+            <div class="form">
+                <div class="row-line">
+                    <div class="lines">
+                        <label for="">Picking Up Location</label>
+                        <input type="text" placeholder="Airport or Anywhere">
+                    </div>
+    
+                    <div class="lines">
+                        <label for="">Picking Up Date</label>
+                        <input type="date" placeholder="dd/mm/yyyy">
+                    </div>
+                </div>
+
+                <div class="row-line">
+                    <div class="lines">
+                        <label for="">Picking Up Location</label>
+                        <input type="text" placeholder="Airport or Anywhere">
+                    </div>
+    
+                    <div class="lines">
+                        <label for="">Picking Up Date</label>
+                        <input type="date" placeholder="dd/mm/yyyy">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="findcar">
+                <p><a href="">Advance Search</a></p>
+                <button>FIND CAR</button>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

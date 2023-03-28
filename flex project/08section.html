@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        .eight-section
+        {
+            /* height: 330px; */
+            /* margin: 50px 0; */
+            background: rgba(119, 136, 153, 0.20);
+            display: flex;
+            flex-wrap: wrap;
+            /* padding: 20px 20px 20px 20px; */
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .eight-section .parts
+        {
+            /* height: 330px; */
+            /* width: 350px; */
+            background: coral;
+            border: 1px solid;
+            text-align: center;
+            padding: 83px;
+            
+           
+        }
+        @media(max-width: 600px;)
+        {
+            .eight-section .parts .part{width: 100%;}  
+        }
+        .eight-section .parts .part
+        {
+            height: 150px;
+            width: 150px;
+            background: cornflowerblue;
+            text-align: center;
+            padding: 10px 0;
+            color: #7f7f7f;
+        }
+        .part i
+        {
+            /* margin-bottom: 20px; */
+            font-size: 60px;
+            
+        }
+        .part p
+        {
+            font-weight: bold;
+            font-size: 12px;
+            font-family: sans-serif;
+            margin: 10px 0;
+            
+        }
+        .eight-section .parts .part:hover
+        {
+            color: orangered;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="eight-section">
+
+        <div class="parts">
+            <div class="part">
+                <i class="fa fa-heart"></i>
+                <p>5657</p>
+                <p>HAPPY COSTUMERS</p>
+            </div>
+        </div>
+
+        <div class="parts">
+            <div class="part">
+                <i class="fa fa-car"></i>
+                <p>657</p>
+                <p>TOTAL CAR COUNT</p>
+            </div>
+        </div>
+        
+        <div class="parts">
+            <div class="part">
+                <i class="fa fa-flag"></i>
+                <p>1.255.657</p>
+                <p>TOTAL KM MIL</p>
+            </div>
+        </div>
+        
+        <div class="parts">
+            <div class="part">
+                <i class="fa fa-comments"></i>
+                <p>1255</p>
+                <p>CALL CENTER SOLUTIONS</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0%;}
+        .cars1
+        {
+            height: 380px;
+            width: 354px;
+            background: cornflowerblue;
+            
+        }
+        .cars1 .car-image
+        {
+            height: 225px;
+            width: 354px;
+            /* background: orange; */
+            background: url(./image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg);
+            background-size: 100% 100%;
+            padding: 80px 140px;
+            
+        }
+        .cars1 .car-image .eye-effects
+        {
+            height: 70px;
+            width: 70px;
+            /* background: chocolate; */
+            border: 1px solid;
+            text-align: center;
+            padding: 4px 4px;
+            border-radius: 50%;
+            opacity: 0.60;
+            display: none;
+        }
+
+        .cars1 .car-image .eye-effects .eye-effect1
+        {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: black;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        .eye-effect1 .fa-eye
+        {
+            color: white;
+        }
+        .cars1 .car-image:hover .eye-effects
+        {
+            display: block;
+        }
+        .cars1 .car-text
+        {
+            height: 155px;
+            width: 354px;
+            background: red;
+        }
+        .cars1 .car-text .car-text-up
+        {
+            height: 120px;
+            width: 354px;
+            background: gray;
+            text-align: center;
+            padding: 10px;
+        }
+        .cars1 .car-text .car-text-up p
+        {
+            margin: 10px 0;
+            font-family: sans-serif;
+            color: rgb(165, 171, 183);
+        }
+        .cars1 .car-text .car-text-up .pp1
+        {
+            font-weight: bold;
+            color: black;
+        }
+        .cars1 .car-text .car-text-up .pp1:hover
+        {
+            color: red;
+        }
+        .cars1 .car-text .car-text-up button
+        {
+            height: 30px;
+            width: 115px;
+            border: none;
+            background: red;
+            color: white;
+
+        }
+        .cars1 .car-text .car-text-up button:hover
+        {
+            background: black;
+        }
+
+        .cars1 .car-text .car-text-down
+        {
+            height: 35px;
+            width: 354px;
+            background-color: yellow;
+            display: flex;
+            
+            
+        }
+        .cars1 .car-text .car-text-down .d2015
+        {
+            height: 35px;
+            width: 88.5px;
+            /* background: darkcyan; */
+            border: 1px solid;
+            text-align: center;
+            padding: 8px;
+        } 
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+    <!-- <div class="four-container"> -->
+        <div class="cars1">
+            <div class="car-image">
+                <!-- <img src="image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg" alt="" height="225px" width="354px"> -->
+                <div class="eye-effects">
+                    <div class="eye-effect1">
+                        <i class="fa fa-eye"></i>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="car-text">
+                <div class="car-text-up">
+                    <p class="pp1">Honda Civic Elegance</p>
+                    <p>Start from $ 100.00 / per day</p>
+                    <button>RENT IT</button>
+                </div>
+                <div class="car-text-down">
+                    
+                    <div class="d2015">
+                        <i class="fa fa-car"></i>
+                        2015
+                    </div>
+
+                    <div class="d2015">
+                        <i class="fa fa-tachometer"></i>
+                        Diesel
+                    </div>
+
+                    <div class="d2015">
+                        <i class="fa fa-sun-o"></i>
+                        Auto
+                    </div>
+
+                    <div class="d2015">
+                        <i class="fa fa-road"></i>
+                        2500
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- </div> -->
+</body>
+</html>
